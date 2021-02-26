@@ -183,7 +183,7 @@ This code: <br>
 	grep -v -E "(unknown|multiple)" tem_merged_teosinte > tem_merged_teosinte_chromosomes
 	head -n 1 tem_merged_teosinte_chromosomes > tem_merged_teosinte_headers
 	sed 's/?\/?/?/g' tem_merged_teosinte_chromosomes | sort -k2,2n -k3,3n | awk -F '\t' '{print $0 > "tem_t_inc_c_"$2}'
-	for i in $(seq 1 10); do cat tem_merged_maize_headers ``tem_m_inc_c_$i > "./output/maize_inc_c_"$i".txt"; done
+	for i in $(seq 1 10); do cat tem_merged_teosinte_headers ``tem_m_inc_c_$i > "./output/teosinte_inc_c_"$i".txt"; done
 	sed 's/?\/?/-/g' tem_merged_teosinte_chromosomes | sort -k2,2n -k3,3nr | awk -F '\t' '{print $0 > "tem_t_dec_c_"$2}'
 	for i in $(seq 1 10); do cat tem_merged_teosinte_headers ``tem_t_dec_c_$i > "./output/teosinte_dec_c_"$i".txt"; done
 	rm tem*
