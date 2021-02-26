@@ -137,6 +137,7 @@ By inspecting this file, I learnt:
 ----------
 
 ###Maize data###
+
 	grep -E "(Group|ZMMIL|ZMMLR|ZMMMR)" fang_et_al_genotypes.txt | cut --complement -f 2-3 > tem_maize_genotypes.txt
 	awk -f transpose.awk tem_maize_genotypes.txt > tem_transposed_maize_genotypes.txt
 	cut -f 1,3,4 snp_position.txt > tem_positions
