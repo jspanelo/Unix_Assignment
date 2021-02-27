@@ -10,6 +10,9 @@ This repository contains two files and one directory.
 Nomenclature in `./output`:
 
 maize_inc_c_<>.txt: Maize in increasing order chromosome
+
 maize_dec_c_<>.txt: Maize in decreasing order chromosome
+
 teosinte_inc_c_<>.txt: teosinte in increasing order chromosome
+
 teosinte_dec_c_<>.txt: teosinte in decreasing order chromosome
