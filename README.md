@@ -9,7 +9,7 @@ This repository contains two files and one directory.
 `./output` contains all the 44 files, 22 from maize and 22 from teosinte.
 Nomenclature in `./output`:
 
-maize_inc_c_<>.txt: Maize in increasing order chromosome <>
-maize_dec_c_<>.txt: Maize in decreasing order chromosome <>
-teosinte_inc_c_<>.txt: teosinte in increasing order chromosome <>
-teosinte_dec_c_<>.txt: teosinte in decreasing order chromosome <>
+maize_inc_c_<>.txt: Maize in increasing order chromosome
+maize_dec_c_<>.txt: Maize in decreasing order chromosome
+teosinte_inc_c_<>.txt: teosinte in increasing order chromosome
+teosinte_dec_c_<>.txt: teosinte in decreasing order chromosome
